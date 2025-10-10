@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-gradient-to-b from-gray-900 via-purple-900 to-black text-[#D2B48C] font-sans;
+}
+
+a {
+  @apply text-[#D2B48C] hover:text-[#F4E1C1];
+}
