@@ -50,7 +50,7 @@ export default function Hero() {
         <h2 className="text-xl md:text-2xl mt-4 text-gray-300">
           <Typewriter
             options={{
-              strings: ["DATA ANALYST 💻", "DATA VISUALIZATION 🎨", "POWER BI 🚀"],
+              strings: ["IAM A DATA SCIENCE STUDENT"],
               autoStart: true,
               loop: true,
               delay: 60,
@@ -67,14 +67,26 @@ export default function Hero() {
           Passionate about transforming raw data into powerful insights. I craft interactive dashboards and stories that make numbers speak. 📊
         </p>
 
-        {/* CTA Button */}
-        <motion.a
-          href="#projects"
-          whileHover={{ scale: 1.1 }}
-          className="inline-block mt-8 px-8 py-3 bg-gradient-to-r from-purple-700 to-fuchsia-600 rounded-full text-white font-semibold tracking-wide shadow-lg hover:shadow-[0_0_20px_rgba(216,180,254,0.8)] transition-all duration-300"
-        >
-          View My Work
-        </motion.a>
+        {/* CTA Buttons */}
+<div className="mt-8 flex flex-col md:flex-row gap-4 justify-center md:justify-start">
+  <motion.a
+    href="#projects"
+    whileHover={{ scale: 1.1 }}
+    className="inline-block px-8 py-3 bg-gradient-to-r from-purple-700 to-fuchsia-600 rounded-full text-white font-semibold tracking-wide shadow-lg hover:shadow-[0_0_20px_rgba(216,180,254,0.8)] transition-all duration-300"
+  >
+    View My Work
+  </motion.a>
+
+  <motion.a
+    href="/assets/KALENOR-SHATHAKSHARI-Resume.pdf"
+    target="_blank"
+    whileHover={{ scale: 1.1 }}
+    className="inline-block px-8 py-3 bg-pink-500/90 hover:bg-pink-400 rounded-full text-white font-semibold tracking-wide shadow-lg hover:shadow-[0_0_20px_rgba(255,182,193,0.8)] transition-all duration-300"
+  >
+    Get Resume
+  </motion.a>
+</div>
+
       </motion.div>
 
       {/* Lottie Animation using public URL */}
