@@ -14,7 +14,7 @@ export default function Projects() {
       title: "Stock Price Prediction",
       description:
         "Built a stock price prediction model using Generative AI and ML algorithms.",
-      tools: "Python, ML, GenAI",
+      tools: "Python, ML, EVENT:GenAI",
       github: "https://github.com/shathakshari2610/StockPricePrediction",
     },
     {
